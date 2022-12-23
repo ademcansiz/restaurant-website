@@ -1,0 +1,317 @@
+.home{
+    height: 100vh;
+    background: url(../images/home.jpg) no-repeat;
+    margin-top: -14.85rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    width: 50%;
+}
+
+.home-title{
+    font-size: 6rem;
+    color: white;
+}
+
+.home-yazi{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+
+.menu-category{
+    font-size: 1.2rem;
+}
+
+.menu-content{
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.menu-fiyat{
+    margin: 2rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.menu-eski-fiyat{
+    text-decoration: line-through;
+}
+
+.products-title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.products-content{
+    /* position: relative; */
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.products-content a{
+    color: var(--black-color);
+}
+
+.pbox-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.products-fiyat{
+    display: flex;
+    flex-direction: column;
+}
+
+.products-fiyat b{
+    font-size: 3rem;
+    /* margin: .5rem; */
+}
+
+.products-bilgi{
+    /* margin: .5rem; */
+    font-size: 1.25rem;
+}
+
+.products-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: .2rem solid var(--main-color) ;
+    border-radius: 50%;
+}
+
+.products-btn a{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.dark-box-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    border-radius: 3rem;
+}
+
+.products-fiyat-dark{
+    color: white;
+    margin-top: 100%;
+}
+
+
+.products-btn-dark{
+    margin-top: 100%;
+}
+
+.products-content-dark a{
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+
+.box-dark .products-title{
+    position: relative;
+    z-index: 100;
+    color: white;
+}
+
+.products .box{
+    height: 53rem;
+}
+
+.about-container{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+.about-images{
+    flex: 1 1 45rem;    
+}
+
+.about-img{
+    width: 100%;
+}
+
+.about-content{
+    flex: 1 1 45rem;
+   
+}
+
+.about-title{
+    font-size: 3rem;
+    color: white;
+}
+
+.about-yazi{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-rendering: geometricPrecision;
+}
+
+.customers .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    height: 63rem;
+}
+
+.customers .box-container .box .box-img{
+    width: 60%;
+}
+
+.customers-content{
+    font-size: 1.5rem;
+    line-height: 1.9;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+.users{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+
+.users-name{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.stars i{
+    color: gold;
+    margin: .8rem 0; 
+    font-size: 1.3rem;
+}
+
+.row{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background-color: var(--black-color);
+}
+
+.mapp{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.form{
+    flex: 1 1 45rem;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.form-title{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.input-box{
+    border: var(--border);
+    padding:2rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.input-box input{
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.input-box i{
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.form .btn{
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    margin: 2.5rem 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.blog-box{
+    padding: 0;
+    overflow: hidden;   
+}
+
+.image{
+    height: 50%;
+    overflow: hidden;
+}
+.blog-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 3rem;
+        border-top-right-radius: 3rem;
+        /* margin-bottom: 5rem; */
+       
+}
+
+.blog-img:hover{
+    transform: scale(1.2);
+}
+
+.blog-content{
+    display: inline-block;
+    margin: 2rem 2rem 0rem 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.blog-yazi{
+    display: inline-block;
+    margin:.5rem 2rem;
+    font-size: 1.5rem;
+}
+
+.blog-icerik{
+    margin:2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:gray;
+}
+
+.blog-box .btn{
+    margin: 2rem;
+    font-size: 1.25rem;
+}
+
+#navbar-list-item-home{
+    border-color:#e84242;
+}
+#alt-navbar-list-item-home{
+    background-color:#0e0e0e;
+}
+    
+  

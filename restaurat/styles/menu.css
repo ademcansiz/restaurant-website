@@ -1,0 +1,27 @@
+.menu-category{
+    font-size: 1.2rem;
+}
+
+.menu-content{
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.menu-fiyat{
+    margin: 2rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.menu-eski-fiyat{
+    text-decoration: line-through;
+}
+
+#navbar-list-item-menu{
+    border-color:#e84242;
+}
+#alt-navbar-list-item-menu{
+    background-color:#0e0e0e;
+}

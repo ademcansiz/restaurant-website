@@ -1,0 +1,63 @@
+.row{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background-color: var(--black-color);
+}
+
+.mapp{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.form{
+    flex: 1 1 45rem;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.form-title{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: white;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.input-box{
+    border: var(--border);
+    padding:2rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.input-box input{
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.input-box i{
+    color: white;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+}
+
+.form .btn{
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    margin: 2.5rem 0;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+#navbar-list-item-contact{
+    border-color:#e84242;
+}
+#alt-navbar-list-item-contact{
+    background-color:#0e0e0e;
+}

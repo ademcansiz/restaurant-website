@@ -1,0 +1,37 @@
+.about-container{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+}
+
+.about-images{
+    flex: 1 1 45rem;    
+}
+
+.about-img{
+    width: 100%;
+}
+
+.about-content{
+    flex: 1 1 45rem;
+   
+}
+
+.about-title{
+    font-size: 3rem;
+    color: white;
+}
+
+.about-yazi{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-rendering: geometricPrecision;
+}
+
+#navbar-list-item-about{
+    border-color:#e84242;
+}
+#alt-navbar-list-item-about{
+    background-color:#0e0e0e;
+}
